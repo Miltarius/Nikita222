@@ -6,7 +6,7 @@ elif x < 0 < y:
     print('вторая четверть')
 elif x < 0 > y:
     print('третья четверть') 
-elif x > 0 > y  :     
+elif x > 0 > y:     
     print('четвертая четверть')
-else :
+else:
     print('точка на оси') 
