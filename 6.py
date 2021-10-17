@@ -1,5 +1,7 @@
-a = float(input('Введите число'))
-if a == int(a):
-    print('целое')
-else:
-    print('не целое')
+a = int(input('Введи строку'))
+k = int(input('Введите цифру'))
+s = []
+for i in a:
+    if i.isdigit():
+        s.append(i)
+print(k, '-ая цифра в строке', s[k - 1])

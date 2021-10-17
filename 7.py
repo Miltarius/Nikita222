@@ -1,7 +1,10 @@
-a = int(input('Введите число a'))
-b = int(input('Введите число b'))
-c = 0
-for x in range(a, b + 1):
-    if x % 5 == 0:
-        c += x
-print(c)
+from random import randint
+s = int(input('Введите число '))
+a = randint(0, 100)
+while s != a:
+    if s > a:
+        print('Загаданное число меньше')
+    elif s < a:
+        print('Загаданное число больше')
+    s = int(input('Введите число '))
+print('Вы угадали') 
