@@ -1,4 +1,4 @@
-a = str(input('Введи строку'))
+a = input('Введи строку')
 k = int(input('Введите цифру'))
 s = list()
 for i in a:

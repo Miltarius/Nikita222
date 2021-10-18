@@ -1,4 +1,5 @@
 from random import randint
+
 s = int(input('Введите число '))
 a = randint(0, 100)
 while s != a:
