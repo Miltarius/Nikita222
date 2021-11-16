@@ -1,9 +1,5 @@
+q = [1, 2, 3, 4, 5, 6, 7, 8 ,9, 100238]
 def ds(q):
     w = sum(q) / len(q)
     print('Cреднее арифметическое = ', w)  
-q = list() 
-n = input('Введите ')  
-while n != '':
-    q.append(n)
-    n = input('Введите ') 
 ds(q)

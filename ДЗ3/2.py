@@ -1,12 +1,12 @@
 def qw():
     a = int(input('Введи число, а я тебе время года'))
-    if (a == 3) or (a == 4) or (a == 5):
+    if a in [3, 4, 5]:
         print('Весна')
-    elif (a == 6) or (a == 7) or (a == 8):
+    elif a in [6, 7, 8]:
         print('Лето')
-    elif (a == 9) or (a == 10) or (a == 11):
+    elif a in [9, 10, 11]:
         print('Осень')  
-    elif (a == 12) or (a == 1) or (a == 2):
+    elif a in [12, 1, 2]:
         print('Зима') 
     return a   
 print(qw())
