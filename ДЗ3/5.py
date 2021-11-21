@@ -1,5 +1,11 @@
-q = [1, 2, 3, 4, 5, 6, 7, 8 ,9, 100238]
 def ds(q):
-    w = sum(q) / len(q)
-    print('Cреднее арифметическое = ', w)  
-ds(q)
+    return sum(q) / len(q) 
+
+
+p = input('Введи символы')
+a = []
+while p != "":
+    a.append(float(p))
+    p = input('Введи символы')
+    print(a)
+print(ds(a))
