@@ -1,14 +1,10 @@
-p = input('Введи символы')
-def f(p):
-    a = []
-    while p != "":
-        a.append(p)
-        p = input('Введи символы')
-    return p 
- 
+from home31 import dqw
     
-f(p)
-for x in set(f(p)):
-    y = f(p).count(x)
-    print(x, '|', y)		   
-print(f(p))
+
+def qw(a):
+    print('"Элемент', '|', 'Частота')
+    for x in set(f(p)):
+        y = a.count(x)
+        print(x, '|', y)		   
+a = dqw()
+qw(a)

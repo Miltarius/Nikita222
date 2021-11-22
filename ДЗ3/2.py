@@ -1,4 +1,3 @@
-a = int(input('Введи число, а я тебе время года'))
 def qw(a):
     if a in [3, 4, 5]:
         print('Весна')
@@ -8,5 +7,6 @@ def qw(a):
         print('Осень')  
     elif a in [12, 1, 2]:
         print('Зима') 
-    return a   
+    return a 
+a = int(input('Введи число, а я тебе время года'))      
 print(qw(a))
