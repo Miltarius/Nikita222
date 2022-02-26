@@ -12,7 +12,7 @@ class Fraction:
                 self.den != 0 
 
         def __str__(self): 
-            return str(self.num)+"/"+str(self.den) 
+            return f"{self.num}/{self.den}"
 
 a1 = Fraction() 
 print(a1) 
@@ -22,5 +22,4 @@ print(a2)
  
 a3 = Fraction() 
 a3.input() 
-print(a3) 
- 
+print(a3)
