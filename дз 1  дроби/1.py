@@ -8,18 +8,16 @@ class Fraction:
             self.den = int(input("Введите знаменатель: "))  
             if self.den == 0: 
                 print ("error") 
-            else: 
-                self.den != 0 
 
         def __str__(self): 
             return f"{self.num}/{self.den}"
 
 a1 = Fraction() 
-print(a1) 
+print(a1)
  
 a2 = Fraction(3, 4) 
-print(a2) 
+print(a2)
  
 a3 = Fraction() 
-a3.input() 
+a3.input()
 print(a3)
